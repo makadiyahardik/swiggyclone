@@ -1,0 +1,117 @@
+.main-home{
+    width: 80%;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    padding-right: 0;
+    height: 100vh;
+}
+.main-two-home .logo img{
+    width: 20%;
+}
+.main-two-home .logo{
+    height: 70vh;
+    width: 900px;
+}
+.main-two-home {
+   justify-content: center;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px;
+}
+
+
+.main-home .big-img img{
+    position: relative;
+   width: 220%;
+    height: 80vh;
+}
+.main-two-home .main-two-home{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main-home .main-two-home .buttons-group{
+    margin-left: 50px;
+    padding-top: 17px;
+}
+.main-home .main-two-home .buttons-group button{
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-home .main-two-home .buttons-group .btn-1{
+    background-color: transparent;
+    font-weight: bold;
+    border: 0 solid white;
+
+}
+.main-home .main-two-home .buttons-group .btn-2{
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid  black;
+    color: white;
+    padding: 8px 25px;
+
+}
+.main-home .main-two-home .buttons-group .btn-1:hover{
+    color: #fc8019;
+}
+.main-two-home .logo .home-text{
+    margin-top: 80px;
+ 
+  
+}
+
+
+.main-two-home .logo .home-text .content::after{
+content: " Birthday Party ? ";
+animation: chaneText 60s infinite;
+transition: all 0.3s linear;
+}
+
+
+@keyframes chaneText{
+    15% {content: "Game night?"; }
+    25% { content: "Late night at office ?"; }
+    35% { content: "Unexpected guests ?"; }
+    45% { content: "Movie marathon ?"; }
+    55% { content: "Hungry ?"; }
+    65% { content: "Cooking gone wrong?"; }
+    75% { content: "Celebration"; }
+    }
+    
+
+.main-two-home .logo .home-text h1{
+  width: 600px;
+font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-two-home .logo .home-text h3{
+ width: 600px;
+  font-size: 1.6rem;
+  line-height: 20px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .main-two-home .logo .home-text input{
+      height: 40px;
+      width: 400px;
+      align-items: center;
+      font-weight: 600;
+      border: 2px  solid gray ;
+  }
+  .main-two-home .logo .home-text .food-btn{
+      height: 46px;
+      margin-left: -10px;
+      background-color: #fc8019;
+      color: white;
+      font-weight: 700;
+      border: 0px solid #fc8019 ;
+      padding-left: 10px;
+      padding-right: 10px;
+  }

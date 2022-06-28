@@ -1,0 +1,28 @@
+.footer-section{
+    padding: 50px 120px;
+    background-color: black;
+    height: 60vh;
+}
+.footer-section .footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-section .footer .common-footer{
+    color: white;
+}
+.footer .common-footer ul{
+    list-style: none;
+}
+.footer .common-footer ul h4{
+    color: slategrey;
+    text-transform: uppercase;
+}
+.footer .common-footer ul li{
+    margin-top: 20px;
+}
+.footer .common-footer ul li img{
+    width: 70%;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+}

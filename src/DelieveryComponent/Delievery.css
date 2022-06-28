@@ -1,0 +1,44 @@
+.main-delievery{
+    padding: 0px 120px;
+    background-color: #2b1e16;
+height: 100vh;
+}
+.main-delievery .delievery-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.delievery-card .common-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+}
+.delievery-card .last-div{
+    margin-top: 33px;
+}
+
+.delievery-card .common-div h1{
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+.delievery-card .common-div p{
+    
+    font-size: 1.1rem;
+  
+   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.delievery-card .common-div img{
+    width: 25%;
+}
